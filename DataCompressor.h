@@ -17,7 +17,7 @@
 
 #define CHUNK 16384
 
-int def (FILE *source, FILE *destination, int level)
+int compress (FILE *source, FILE *destination, int level)
 {
     int ret, flush;
     unsigned have;
@@ -72,7 +72,7 @@ int def (FILE *source, FILE *destination, int level)
     return Z_OK;
 }
 
-int inf(FILE *source, FILE *dest)
+int decompress(FILE *source, FILE *dest)
 {
     int ret;
     unsigned have;
