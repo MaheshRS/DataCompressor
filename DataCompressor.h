@@ -6,8 +6,8 @@
 //  Copyright (c) 2013 Mahesh Shanbhag. All rights reserved.
 //
 
-#ifndef Constraints_ImageCompressor_h
-#define Constraints_ImageCompressor_h
+#ifndef DataCompressor_h
+#define DataCompressor_h
 
 #include <stdio.h>
 #include <string.h>
